@@ -1,0 +1,41 @@
+h1, h2 {
+    color: purple;
+}
+
+/* This is used for comment */
+body {
+    font-family:Arial, Helvetica, sans-serif ;
+}
+
+main p {
+    color: red;
+}
+/* # used for id 
+. used for class
+ */
+#dog-news .news-heading {
+font-family: 'Times New Roman', Times, serif
+}
+
+#cat-news .news-heading {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+main p:nth-child(3) {
+font-weight: bold;
+}
+
+main > p{
+    font-style: italic;
+}
+
+/* Specificity */
+h4 {
+    color: blue;
+}
+h4.subtitles {
+    color: aquamarine;
+}
+h4#funtext {
+    color: cadetblue;
+}
