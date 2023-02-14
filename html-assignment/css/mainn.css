@@ -3,11 +3,11 @@ body {
     font-size: 18px;
 }
 header, footer {
-    background-color: blue;
+    background-color: rgba(234, 143, 38, 0.56);
 }
 
 .blog {
-   color: rgb(42, 165, 46);
+   color: rgb(121, 13, 13);
 }
 #img {
     box-shadow: 0px 0px 2px 1px black;
