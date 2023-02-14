@@ -17,9 +17,6 @@ nav ol {
     list-style-type: square;
     
 }
-ol li:nth-child(odd) {
-    background-color: burlywood;
-}
 
 a {
     text-decoration: none;
@@ -31,4 +28,12 @@ a:link {text-decoration: none;}
 }
 a:hover {
     color: rgb(254, 2, 254);
+}
+.order li:nth-child(odd) {
+    background-color: burlywood;
+}
+.line {
+    text-decoration: none;
+    background: rgb(217, 213, 76);
+    border: 2px;
 }
