@@ -1,46 +1,45 @@
 body{
-    background-color: #aad4cf;
+     background-color: #aad4cf;                    /*  gives backgroudn color to page  */
 }
 .header{
-    display: flex;
-    justify-content: center;
-    text-align: center;
+    display: flex;                                   /*  flex is used when the given element is flexible */
+    justify-content: center;                         /*  the content stays in the centre   */
+    text-align: center;                              /*   the text in this element stays in centre  */
 }
 
 .centre-title {
-    position: absolute;
+    position: absolute;                               /*  position property used to specify the type we want. Here it is absolute,    */
     top: 32%;
     left: 42%;
-    color: white;
-    font-size: 300%
+    color: white;                                  /*   the color is set to white  */
+    font-size: 300%                                     
     
 }
 nav ul {
-    list-style: none;
+    list-style: none;                               /*   the list style none removes any bullets in list   */
     margin-left: 28%;
-    padding: 0;
+    padding: 0;                                          /* padding is the distance from content to border    */
     margin-top: -1.5%;
 
 }
 nav li {
-    float: left;
-    display: block;
-    /* padding: 10px; */
+    float: left;                                         /*   float used to show the element in the given direction, here its left   */
+    display: block;                                      /*  this starts in a new line take the complete width of the element    */
     color: black;
     word-spacing: 100px;
     width: 25%;
     font-size: xx-large;
     font-weight: 500;
     font-family:'Times New Roman', Times, serif;
-    border-right: solid 1px black;
-    margin-left: 15px;
+    border-right: solid 1px black;                           /*   The border lines are solid, 1 pixel in size and black color   */
+    margin-left: 15px;                                                   /*    Moves the element to 15 pixel from left  */
  }
  h2 {
-    padding: 8px 8px;
+    padding: 8px 8px;                                            /*    gives space between content and border, 8 pixel at the sides and bottom and top  */
  }
 
 
- .color {
+ .color {                                                            /*  this her is used to show the vertical bars between each navigational panel.    */
     display: block;
     background-color: #D4E9E7;
     margin-left: 16%;
@@ -48,45 +47,42 @@ nav li {
     padding: 6px 6px;
  }
 
- .image-size {
+ .image-size {                                                           /*   The size of the image is changed here, float left is used to keep the image at the lef side.   */
     display: grid;
     width: 190px;
     padding: 10px;
     float: left;
  }
 
- .article {
-   
- }
 
-.story {
+.story {                                             /*    displays the texts inline, and the font size and width is adjusted here   */
     display: inline;
     width: 500px;
     font-size: large;  
 } 
 
-.info {
+.info {                                                  /*   The form box size is changed here   */
     border-style: solid;
     padding: 4px;
 }
 
-.style {
+.style {                                             /*   The name and mail boxes size are cnaged here   */
     width: 97%;
     margin-left: 10px;
 }
 
-.button {
+.button {                                            /*   the submit button's height and border styles i changed here   */
     border-style: solid;
-    height: 30px;
+    height: 30px;                                     
     margin-left: 10px;
 }
 
 label, input, textarea, .formp {
-    margin-left: 10px;
+    margin-left: 10px;                                      
 }
 
 
 .foot {
-    text-align: right;
+    text-align: right;                                                   /*    changes the footer placmenet to the right, 14 pixel from the right  */
     margin-right: 14px;
 }
