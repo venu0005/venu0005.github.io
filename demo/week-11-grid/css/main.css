@@ -1,0 +1,82 @@
+* {
+    box-sizing: border-box;
+}
+
+.brand-color {
+    background-color:rgb(21, 199, 21);
+}
+
+.d_img {
+    background-color: darkgray;
+    width: 100px;
+    height: 100px;
+    margin: 1px;
+}
+
+
+.btns {
+    display: flex;
+    flex-direction: column;
+}
+
+footer a {
+    width: 100%;
+    display: block;
+}
+
+.wrapper {
+    width: 90%;
+    margin: auto;
+}
+
+.topnav {
+    text-align: center;
+}
+
+ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+header {
+    background-color: lightgray;
+}
+
+@media screen and (min-width:600px) {
+    .topnav { grid-area:topnav;}
+    header {grid-area: header;}
+    .options { grid-area:options;}
+    .department {grid-area: department;}
+    .clothing { grid-area: clothing;}
+    .deals { grid-area: deals}
+    footer { grid-area: footer;}
+
+    .wrapper {
+        width: 600px;
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-areas: 
+            "topnav topnav topnav topnav"
+            "header header header header"
+            "options options options options"
+            "department department clothing deals"
+            "footer footer footer footer";
+    }
+
+    .topnav {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .options ul {
+         display: flex;
+    } 
+    .department {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    footer {
+        display: flex;
+    }
+}
